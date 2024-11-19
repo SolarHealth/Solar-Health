@@ -848,3 +848,92 @@ main {
   transition: background-color 0.2s ease, color 0.2s ease;
   text-decoration: none;
 }
+
+/*------------------ footer --------------------*/
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: #131313;
+}
+
+.contentFooter {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5rem;
+}
+
+.enterpriseInformation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.logoFooter {
+  height: 2.5rem;
+  width: auto;
+}
+
+.enterpriseNameEadress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.enterpriseNameEadress h2 {
+  color: #e5e5e5;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.enterpriseNameEadress span {
+  color: #9ca3af;
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.allLinksFooter {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 2rem;
+  border-top-width: 2px;
+  border-top-color: #262626;
+}
+
+.linkPrivacity {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.linkPrivacity a {
+  color: #525252;
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.linkPrivacity a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
