@@ -1032,3 +1032,106 @@ footer {
   }
 
 }
+
+@media (min-width: 1024px) {
+  .content {
+    justify-content: flex-start; 
+  }
+
+  .logo {
+    flex: 1;
+    width: 0;
+  }
+
+  .nav {
+    display: flex;
+    column-gap: 2.5rem;
+  }
+
+  .sistemTest {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    width: 0;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .simulator:hover {
+  background-color: #b8b8b8; 
+  color: black; 
+  }
+
+  .textContent h2 {
+    color: #9ca3af;
+  }
+
+  .textBox {
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  .contentBox1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mobileImage {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .gridBox {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+  }
+
+  .boxAllTextSection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contentTextInvestiment {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .investImage {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .allContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .textContentCashBack {
+    margin-left: 0;
+    margin-right: 0;
+    order: 1;
+  }
+
+  .imageCashBack {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .enterpriseInformation {
+    flex-direction: row;
+  }
+
+  .allLinksFooter {
+    gap: 0;
+    flex-direction: row;
+  }
+
+  .linkPrivacity {
+    margin-bottom: 0;
+  }
+
+  .sideBar {
+    display: none;
+  }
+
+}
