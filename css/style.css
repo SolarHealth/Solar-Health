@@ -708,3 +708,117 @@ main {
   width: 100%;
   margin-bottom: 2.5rem;
 }
+
+/*--------------- section 6 -------------------*/
+
+.section6 {
+  color: #e5e5e5;
+  background-color: #fafafa;
+}
+
+.contentBoxSection6 {
+  display: grid;
+  z-index: 10;
+  height: 100%;
+  min-height: 865px;
+  width: 100%;
+  max-width: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.allContent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: auto;
+  align-items: center;
+}
+
+.textContentCashBack {
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  order: -1;
+}
+
+.cashBackBox {
+  max-width: 36rem;
+  padding-bottom: 3.5rem;
+}
+
+.cashBackBox strong {
+  display: block;
+  color: #174979;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.cashBackBox h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.875rem;
+  line-height: 1.25;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.cashBackBox p {
+  max-width: 28rem;
+  margin-bottom: 2.25rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #6b7280;
+}
+
+.btnCashBack {
+  display: flex;
+  justify-content: start;
+}
+
+.linkCashBack {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #24538d;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none
+}
+
+.linkCashBack:hover {
+  background-color: #174979;
+}
+
+.imageCashBack {
+  max-width: 36rem;
+  height: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imageCashBack img {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
