@@ -19,3 +19,22 @@ const closeNav = document.querySelector('#btnClose').addEventListener('click', (
     sidebar.style.display = 'none';
   }, 200); 
 });
+
+document.querySelector('#registrationForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const inputs = document.querySelectorAll('.selectValue');
+  let allFilled = true;
+
+  inputs.forEach(input => {
+      if (!input.value) {
+          allFilled = false;
+      }
+  });
+
+  if (allFilled) {
+      alert('Seu cadastro foi concluido!');
+  } else {
+      alert('Não foi possível completar seu cadastro, por gentileza, tente novamente.');
+  }
+});
